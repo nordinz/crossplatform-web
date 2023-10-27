@@ -12,15 +12,15 @@ function Nav({ CreateBtn, UserBtn, HomeBtn }: props) {
   return (
     <div className={styles.nav}>
       <button className={styles.btn} onClick={HomeBtn}>
-        <HomeIcon fontSize={'1.8rem'} />
+        <HomeIcon fontSize={'3rem'} color="red" />
         Home
       </button>
       <button className={styles.btn} onClick={CreateBtn}>
-        <CreateIcon fontSize={'1.8rem'} />
+        <CreateIcon fontSize={'3rem'} />
         Create
       </button>
       <button className={styles.btn} onClick={UserBtn}>
-        <ListIcon fontSize={'1.8rem'} />
+        <ListIcon fontSize={'3rem'} color="green" />
         UserList
       </button>
     </div>

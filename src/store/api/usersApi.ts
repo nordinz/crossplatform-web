@@ -35,7 +35,6 @@ const firebaseBaseQuery = async ({
       if (!id || !body) {
         throw new Error('Id måste skickas och namn måste fyllas i!');
       }
-
       await updateDoc(doc(db, url, id), body);
       return { data: body };
     case 'DELETE':
@@ -74,7 +73,6 @@ export const usersApi = createApi({
     }),
     getUsers: builder.query({
       query: () => ({
-        baseUrl: '',
         url: 'users',
         method: 'GET',
       }),

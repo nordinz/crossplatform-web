@@ -39,7 +39,7 @@ const CreateUser = () => {
       <div className={styles.container}>
         <div className={styles.items}>
           <div>
-            <AppleIcon color="rgb(77, 77, 109)" height={100} width={100} />
+            <AppleIcon color="rgb(0, 0, 0)" height={100} width={100} />
           </div>
           <TextInput
             value={firstName}

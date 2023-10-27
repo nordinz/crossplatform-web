@@ -36,14 +36,13 @@ function UserList() {
           return (
             <li key={user.id}>
               <p>
-                {' '}
                 {user.firstName} {user.lastName}
               </p>
               <div>
                 <EditUser refetch={refetch} user={user} />
                 <button
                   onClick={() => {
-                    handleDelete(user.id);
+                    handleDelete(user.id).then(refetch);
                   }}
                 >
                   <DeleteIcon fontSize={'1.7rem'} />

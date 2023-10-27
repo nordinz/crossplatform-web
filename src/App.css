@@ -4,7 +4,9 @@
   list-style: none;
 }
 .App {
-  text-align: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: white;
 }
 
 .App-logo {
@@ -19,12 +21,9 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }

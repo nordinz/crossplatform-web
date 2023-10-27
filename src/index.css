@@ -22,3 +22,6 @@ code {
   gap: 10px;
   width: 350px;
 }
+p {
+  font-size: 20px;
+}
