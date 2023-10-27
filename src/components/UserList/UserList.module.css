@@ -1,0 +1,21 @@
+.userListStyle li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+
+  gap: 20px;
+}
+.userListStyle ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+.userListStyle li:nth-child(odd) {
+  background-color: rgb(211, 211, 211);
+}
+.farsan {
+  margin-bottom: 20px;
+}

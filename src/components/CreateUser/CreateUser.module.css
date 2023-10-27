@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  border-radius: 20px;
+  width: 350px;
+}
+
+.button {
+  background-color: rgb(77, 77, 109);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  padding: 10px 40px;
+  border-radius: 20px;
+  margin: 10px 0px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(77, 77, 109);
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-items: center;
+  gap: 10px;
+}

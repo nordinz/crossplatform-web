@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  color: black;
+  list-style: none;
+}
 .App {
   text-align: center;
 }

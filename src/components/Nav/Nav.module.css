@@ -1,0 +1,12 @@
+.nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  width: 350px;
+}
+.btn {
+  padding: 25px 25px 25px 25px;
+  background-color: white;
+  font-size: large;
+}

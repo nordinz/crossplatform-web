@@ -1,0 +1,9 @@
+.edit {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  position: relative;
+}
